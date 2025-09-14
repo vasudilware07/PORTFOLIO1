@@ -499,6 +499,144 @@ nav #fas{
     display: block;
 }
 
+.achievements-section {
+    background-color: #1e1e1e;
+    padding: 3rem 0;
+    border-radius: 10px;
+    margin-top: 3rem;
+}
+
+.achievements-section h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    color: #ffffff;
+    position: relative;
+}
+
+.achievements-section h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background-color: #0099ff;
+    border-radius: 2px;
+}
+
+.achievement {
+    margin-bottom: 2rem;
+    padding: 20px;
+    background: #2a2a2a;
+    border-left: 4px solid #0099ff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.achievement:hover {
+    transform: translateX(10px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.achievement h2 {
+    font-size: 1.4rem;
+    color: #0099ff;
+    margin-bottom: 8px;
+}
+
+.achievement p {
+    font-size: 1rem;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+/* Responsive for smaller screens */
+@media only screen and (max-width: 600px) {
+    .achievements-section h1 {
+        font-size: 2rem;
+    }
+    .achievement h2 {
+        font-size: 1.2rem;
+    }
+    .achievement p {
+        font-size: 0.9rem;
+    }
+}
+
+/* ===========================
+   Extracurricular & Volunteering
+=========================== */
+.extracurricular-section {
+    background-color: #1e1e1e;
+    padding: 3rem 0;
+    border-radius: 10px;
+    margin-top: 3rem;
+}
+
+.extracurricular-section h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+    color: #ffffff;
+    position: relative;
+}
+
+.extracurricular-section h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 4px;
+    background-color: #0099ff;
+    border-radius: 2px;
+}
+
+.activity {
+    margin-bottom: 2rem;
+    padding: 20px;
+    background: #2a2a2a;
+    border-left: 4px solid #0099ff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.activity:hover {
+    transform: translateX(10px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.activity h2 {
+    font-size: 1.4rem;
+    color: #0099ff;
+    margin-bottom: 8px;
+}
+
+.activity p {
+    font-size: 1rem;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+    .extracurricular-section h1 {
+        font-size: 2rem;
+    }
+    .activity h2 {
+        font-size: 1.2rem;
+    }
+    .activity p {
+        font-size: 0.9rem;
+    }
+}
+
+
 
 
 
